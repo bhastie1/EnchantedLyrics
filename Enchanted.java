@@ -26,7 +26,7 @@ public class Enchanted
 
         cls();
 
-        System.out.print("Enter 'p' to play: ");
+        System.out.print("Enter 'p' to play song: ");
         String response = scan.next();
 
         if (response.equalsIgnoreCase("p")) music.start();
